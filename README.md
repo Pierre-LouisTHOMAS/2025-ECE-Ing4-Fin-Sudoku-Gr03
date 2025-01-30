@@ -11,7 +11,7 @@ Listez ici la documentation qui accompagne vos solvers.
 
 
 Chaque groupe est invité à créer un [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) de ce dépôt principal muni d'un compte sur Github, et d'indiquer dans le fil de suivi de projet du groupe sur le forum son adresse. 
-›
+
 Vous pourrez ensuite travailler de façon collaborative sur ce fork  en  [attribuant les permissions d'éditions](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository) aux autres membres du groupe, en clonant votre fork sur vos machines, par le biais de validations (commits), de push pour remonter les validations sur le server, et de pulls/tirages sur les machines locales des utilisateurs du groupe habilités sur le fork. 
 
 Le plus simple sera d'utiliser les [outils intégrés à Github](https://docs.microsoft.com/fr-fr/visualstudio/version-control/git-with-visual-studio?view=vs-2019) directement disponible depuis l'environnement [Visual Studio](https://visualstudio.microsoft.com/fr/downloads/). Idéalement, préférez Visual Studio Community 2019 ou Visual Studio pour Mac à Visual Studio Code, qui est plus versatile, mais sans doute moins adapté à ce projet. Si vous choisissez toutefois d'utiliser Visual Studio Code, il vous faudra suivre les instructions fournies [pour la prise en charge de c#](https://code.visualstudio.com/docs/languages/csharp) ou [pour celle de .Net](https://code.visualstudio.com/docs/languages/dotnet), et sans doute installer des extensions comme [celle permettant de charger des solutions](https://marketplace.visualstudio.com/items?itemName=fernandoescolar.vscode-solution-explorer). 
@@ -40,15 +40,3 @@ Pour ce qui est du Workflow de collaboration:
 - Vous serez invité à vous évaluer entre autre sur votre capacité à participer au projet global en partageant régulièrement votre travail et en récupérant celui partagé par les autres groupes. Tout cela sera visible dans la page Insights/Network de vôtre dépôt ou du dépôt principal.
 
 Concernant enfin vos sujets respectifs et vos éventuelles questions spécifiques, je vous invite à utiliser le fil de discussion de votre groupe dans le forum du projet.
-
-
-
-Récapitulatif des commandes principales
-	1.	Récupérer les modifications du dépôt principal :
-        git fetch upstream
-    
-    2.	Fusionner les modifications dans ta branche locale :
-        git merge upstream/master
-
-    3.	Pousser vers ton dépôt personnel (fork) :
-        git push origin master
